@@ -1,7 +1,7 @@
 {
   "name": "com.thepartyzonevr.camerasystem",
   "displayName": "Party Zone Camera System",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A cinnemachine camera controller for VRChat. Allows you to change between 9 different views while you are in desktop mode. This can be used to record events or to have additional views for DJs.",
   "gitDependencies": {},
   "vpmDependencies": {
