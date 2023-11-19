@@ -15,14 +15,5 @@
     "bannerUrl":"banner.png",
     "githubRepos":[
         "labthe3rd/PZCameraSystem"
-    ],
-    "packages":[
-        {
-            "name":"com.thepartyzonevr.camerasystem",
-            "releases":[
-				"https://github.com/labthe3rd/PZCameraSystem/releases/download/v0.1.1/com.thepartyzonevr.camerasystem-0.1.1.zip",
-                "https://github.com/labthe3rd/PZCameraSystem/releases/download/v0.1.0/com.thepartyzonevr.camerasystem.zip"
-            ]
-        }
     ]
 }
