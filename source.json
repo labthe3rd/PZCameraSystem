@@ -7,7 +7,7 @@
         "name":"labthe3rd",
         "url":"https://discord.gg/MYx7cEyW5C"
     },
-    "description":"A camera system for desktop users to view 9 different angles.",
+    "description":"A camera system for desktop users to view 9 different angles. Uses cinemachine cameras.",
     "infoLink":{
         "url":"https://github.com/labthe3rd/PZCameraSystem",
         "text":"View on GitHub"
