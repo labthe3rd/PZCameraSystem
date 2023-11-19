@@ -1,0 +1,28 @@
+{
+    "name":"Party Zone Camera System",
+    "id":"com.thepartyzonevr.camerasystem",
+    "url":"https://vrchat-community.github.io/template-package-listing/index.json",
+    "author":{
+        "email":"labthe3rd@thepartyzonevr.com",
+        "name":"labthe3rd",
+        "url":"https://discord.gg/MYx7cEyW5C"
+    },
+    "description":"A camera system for desktop users to view 9 different angles.",
+    "infoLink":{
+        "url":"https://github.com/labthe3rd/ThePartyZone_Packages",
+        "text":"View on GitHub"
+    },
+    "bannerUrl":"banner.png",
+    "githubRepos":[
+        "labthe3rd/ThePartyZone_Packages"
+    ],
+    "packages":[
+        {
+            "name":"com.vrchat.udonsharp",
+            "releases":[
+                "https://github.com/vrchat-community/UdonSharp/releases/download/1.1.7/com.vrchat.UdonSharp.zip",
+                "https://github.com/vrchat-community/UdonSharp/releases/download/1.1.6/com.vrchat.UdonSharp-1.1.6.zip"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "name": "com.thepartyzonevr.camerasystem",
+    "references": [
+        "UdonSharp.Runtime",
+        "UdonSharp.Lib",
+        "UdonSharp.Editor",
+        "VRC.SDK3",
+        "VRC.SDKBase",
+        "VRC.Udon",
+        "Unity.TextMeshPro",
+        "Cinemachine"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.vrchat.worlds",
+            "expression": "3.1.0",
+            "define": "VRC_WORLDS_READY"
+        }
+    ],
+    "noEngineReferences": false
+}
