@@ -5,19 +5,21 @@
  */
 
 
+using Cinemachine;
 using UdonSharp;
 using UnityEngine;
-using VRC.SDKBase;
-using VRC.Udon;
-using Cinemachine;
+
 
 namespace PartyZone
 {
+    [UdonBehaviourSyncMode(BehaviourSyncMode.None)]
     public class CameraController : UdonSharpBehaviour
     {
+        [Header("Camera Settings")]
         public CameraTrigger targetController;
-        [SerializeField] CinemachineVirtualCamera[] targetCameras;
+        public CinemachineVirtualCamera[] targetCameras;
 
+        [Space]
         [Header("Enable Debug Log?"), Tooltip("Enabling this will display logs of key points in the script")]
         [SerializeField] private bool debugMode;
 
@@ -31,7 +33,7 @@ namespace PartyZone
 
             if (Input.GetKeyDown(KeyCode.Keypad1))
             {
-                if(targetCameras.Length > 0)
+                if (targetCameras.Length > 0)
                 {
                     SetPriorityAll();
                     targetCameras[0].Priority = 20;
@@ -123,13 +125,27 @@ namespace PartyZone
 
         private void SetPriorityAll()
         {
-            if(targetCameras.Length > 0)
+            if (targetCameras.Length > 0)
             {
-                for(int i = 0; i < targetCameras.Length; i++)
+                for (int i = 0; i < targetCameras.Length; i++)
                 {
                     targetCameras[i].Priority = 0;
                 }
             }
+        }
+
+        public void EnableCamera(int selectedCamera)
+        {
+            if(selectedCamera < targetCameras.Length)
+            {
+                SetPriorityAll();
+                targetCameras[selectedCamera].Priority = 20;
+            }
+        }
+
+        public void ExitCamera()
+        {
+            targetController.ExitCamera();
         }
 
         //Debug message display logic
