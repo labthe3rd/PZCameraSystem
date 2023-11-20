@@ -28,12 +28,21 @@ Camera Control System for VRChat. Allows users that are in desktop to switch bet
 2.  Drag the "PZ Camera System" prefab into your scene. It is located under Packages -> Party Zone Camera System -> Runtime.
 3.  Run the scene and when you click the trigger it will override the player camera.
 
+### How do I connect a midi device?
+
+1. VRChat tries to open the first midi device on your machine when you enter a world that has a midi listener. You can change to a specific midi device by setting your launch options/script to includ '--midi=devicenName'
+   Read more at [VRChat's Documention](https://creators.vrchat.com/worlds/udon/midi/realtime-midi)
+
+### How can I send my midi device to VRChat and another application?
+
+There is no one way to do this, but this is my workflow...
+
+1. Create two virtual midi ports with [Loop Midi](https://www.tobias-erichsen.de/software/loopmidi.html)
+2. Use [Midi-OX](http://www.midiox.com/) to send the incoming midi notes from your device to the two virtual ports you created.
+3. Set VRChat to one of the virtual ports and set the other application to read the other virtual port.
+
 ### Questions?
 
 - Join The Party Zone discord server and send me a message! https://discord.gg/MYx7cEyW5C
 
-### TODO
-
-- Finish ReadME
-- Add feature that will allow midi inputs to control cameras
-- Add feature that will allow midi inputs to be mapped to specific camerras
+### Readme is still a work in progress...
