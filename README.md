@@ -2,6 +2,10 @@
 
 Camera Control System for VRChat. Allows users that are in desktop to switch between multiple cameras for recording and DJing.
 
+## Enjoying the prefab?
+
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate/?business=QXEYT9DHDXAUC&no_recurring=0&item_name=Help+inspire+me+to+continue+creating+new+VRChat+Prefabs+and+other+software%21&currency_code=USD)
+
 ## ONLY FOR DESKTOP PLAYERS!
 
 ### This prefab uses cinnemachine. If you'd like to edit the camera motions, please look up cinnemachine tutorials.
