@@ -2,9 +2,7 @@
 
 Camera Control System for VRChat. Allows users that are in desktop to switch between multiple cameras for recording and DJing.
 
-## Enjoying the prefab?
-
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate/?business=QXEYT9DHDXAUC&no_recurring=0&item_name=Help+inspire+me+to+continue+creating+new+VRChat+Prefabs+and+other+software%21&currency_code=USD)
+[Check out the demo video!](https://youtu.be/nRtDZWLw9nw)
 
 ## ONLY FOR DESKTOP PLAYERS!
 
@@ -46,3 +44,7 @@ There is no one way to do this, but this is my workflow...
 - Join The Party Zone discord server and send me a message! https://discord.gg/MYx7cEyW5C
 
 ### Readme is still a work in progress...
+
+## Donations Welcome!
+
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate/?business=QXEYT9DHDXAUC&no_recurring=0&item_name=Help+inspire+me+to+continue+creating+new+VRChat+Prefabs+and+other+software%21&currency_code=USD)
